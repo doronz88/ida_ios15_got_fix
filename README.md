@@ -6,10 +6,7 @@ the next version is released, we can use this simple IDAPython script to fix the
 Python 2:
 
 ```python
-import urllib2;
-
-exec
-urllib2.urlopen('https://github.com/doronz88/ida_ios15_got_fix/raw/stable/fix_ios15_got.py').read()
+import urllib2; exec urllib2.urlopen('https://github.com/doronz88/ida_ios15_got_fix/raw/stable/fix_ios15_got.py').read()
 ```
 
 Python 3:
