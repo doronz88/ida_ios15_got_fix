@@ -12,9 +12,7 @@ import urllib2; exec urllib2.urlopen('https://github.com/doronz88/ida_ios15_got_
 Python 3:
 
 ```python
-import urllib.request;
-
-exec(urllib.request.urlopen('https://github.com/doronz88/ida_ios15_got_fix/raw/stable/fix_ios15_got.py').read())
+import urllib.request; exec(urllib.request.urlopen('https://github.com/doronz88/ida_ios15_got_fix/raw/stable/fix_ios15_got.py').read())
 ```
 
 Thanks to @skochinsky for helping me figure out the bug and a quick workaround.
